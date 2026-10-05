@@ -2,8 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
 
 
 *.Rproj
 .DS_Store
 *html
+=======
+*.Rproj
+.httr-oauth
+.DS_Store
+.quarto
+>>>>>>> e8b378aabb473a71e1cec76e030dc5602d9ae367

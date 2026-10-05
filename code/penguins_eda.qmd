@@ -34,9 +34,13 @@ library(tidyverse)
 
 # Load penguin dataset
 ```{r}
+install.packages("here")
+library(here)
 getwd()
-penguins <- read_csv(here::here("data/penguins.csv"))
-```
+penguins <- read.csv(
+  "/Users/alexandermacnab24/Desktop/Master of Marine Biology /T1/T1 Marine Workbook 1/Biggest Bird/data/penguins.csv"
+)
+``` 
 # Initial investigations
 ```{r}
 head(penguins)
